@@ -1,0 +1,17 @@
+# To-do List
+afazeres txteditor.txt
+
+# Arquivo de descrição gerado automaticamente
+txteditor_description.txt
+
+# Arquivos gerados durante a compilação
+db/
+incremental_db/
+output_files/
+simulation/
+
+# Arquivos temporários e de backup
+*.bak
+*.vhd.bak
+*.rpt
+*.do
