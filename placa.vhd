@@ -25,10 +25,14 @@ BEGIN
 
 	interface: editor PORT MAP(Clk50Mhz => CLOCK_50,
 										Reset => NOT KEY(0),
+										wrt => SW(0),
+										spc => NOT KEY(1),
+										inc => NOT KEY(2),
+										dec => NOT KEY(3),
 										RS => LCD_RS,
 										RW => LCD_RW,
 										Data => LCD_DATA,
 										En => LCD_EN,
 										displayModo => HEX7);
-
+ledg(0) <= sw(0);
 END logica;

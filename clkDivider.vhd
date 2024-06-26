@@ -12,7 +12,7 @@ END clkDivider;
 
 ARCHITECTURE logica OF clkDivider IS
 SIGNAL conteiro : INTEGER := 0;
-CONSTANT fator : INTEGER := 25000000;  -- <<< INSIRA - deve ser ao menos par ou grande
+CONSTANT fator : INTEGER := 2500000;  -- <<< INSIRA - deve ser ao menos par ou grande25000000
 CONSTANT limite : INTEGER := fator - 1;
 CONSTANT meio : INTEGER := fator / 2;
 BEGIN
