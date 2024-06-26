@@ -24,6 +24,7 @@ ARCHITECTURE logica OF placa IS
 BEGIN
 
 	interface: editor PORT MAP(Clk50Mhz => CLOCK_50,
+										Reset => NOT KEY(0),
 										RS => LCD_RS,
 										RW => LCD_RW,
 										Data => LCD_DATA,
